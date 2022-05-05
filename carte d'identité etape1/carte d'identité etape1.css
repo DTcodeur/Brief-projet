@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+   * {
+        font-family: 'Poppins', sans-serif;
+   }
+    body{
+        padding: 0;
+        margin: 0;
+    }
+    h1{
+        background-color: #166b99; 
+    }
+    h2, h3{
+        text-align: center;
+    }
+    .container-formulaire{
+        display: flex;
+        justify-content: center;
+    }
+    input{
+        width: 250px;
+        border-radius: 5px;
+        height: 20px;
+        border-color:#e3e3e3 ;
+        margin-top: 5px;
+        margin-bottom: 10px;
+        cursor: pointer;
+    }
+    select{
+        width: 258px;
+        border-radius: 5px;
+        height: 30px;
+        margin-top: 5px;
+        cursor: pointer;
+    }
+    .container-button{
+        text-align: center;
+    }
+    button{
+        background: #016b9c;
+        margin-top: 10px;
+        padding: 7px;
+        width: 80px;
+        border: none;
+        border-radius: 5px;
+        
+    } 
+    .file-picker{
+        text-align: center;
+        margin-top: 5%;
+        width: 250px;
+    }
+    #file{
+        display: none;
+    }
+    .file{
+        background: lightgray;
+        border-radius: 5px;
+    }
+    .file-picker:active{
+        scale: 0.99;
+    }
+
+    a{
+        text-decoration: none;
+        color: #fff;
+        text-transform: uppercase;
+    }
+    .logo{
+        text-align: center;
+        padding-top: 10px;
+        background: linear-gradient( 135deg, #016b9c 30%, rgb(42, 97, 42));
+        padding: 10px;
+        
+    }
+    .logo img{
+        width: 120px;
+    }
+
+
+@media screen and (min-width:600px) {
+      main{
+        padding: 3%;
+      }
+      h2{
+        display: inline-block;
+        margin-left:-10px;
+        margin-top: 0;
+        margin-bottom: 0;
+        padding: 2%;
+        border-top-right-radius: 40%;
+        border-bottom-right-radius: 40%;
+        font-size: 1.5rem;
+        color: white;
+        background-color: #016b9c;
+        }
+      h3{
+        text-align: right;
+      }
+      .form-row{
+          display: flex;
+         justify-content: center;
+      }
+      .form-row>div{
+        padding:2%;
+      }
+      .file-picker{
+          text-align: center;
+          display: unset;
+      }
+      .container-button{
+          display: flex;
+          justify-content: center;
+      }
+      .button1, .button2{
+        padding:2%;
+      }
+      input{
+          height: 24px;
+      }
+  }   
+  
+  @media screen and (min-width:800px){
+      body{
+        background-image: url(background.jpeg);
+        background-size: cover;
+        border: 1px solid #dadada;
+        margin: 9% 15%;
+        padding: 0%;
+        border-radius: 1%;
+        box-shadow: 5px 5px 5px 5px #dadada;
+      }
+      .logo img{
+          width: 120px;
+      }
+      h2{
+        display: inline-block;
+        margin: 10px;
+        margin-left: -10px;
+        margin-top: 0px;
+        padding: 2%;
+        border-top-right-radius: 40%;
+        border-bottom-right-radius: 40%;
+        font-size: 1.5rem;
+        color: white;
+        background-color: #016b9c;
+      }
+      h3{
+        margin-top: -2%;
+      }
+      main{
+        background-color: aliceblue;
+      }
+      .container-title-formulary{
+          margin-top: 2%;
+      }
+  }
