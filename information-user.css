@@ -1,0 +1,570 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'poppins',sans-serif;
+    font-size: 12px;
+    box-sizing: border-box;
+ }
+ nav{
+     width: 100%;
+    background: linear-gradient(135deg, #016b9c 30%, rgb(42, 97, 42));
+}
+.MES-INFORMATIONS{
+    font-size: 20px;
+    margin-top: 18px;
+    color: white;
+    text-align: center;
+    margin-right: 20px;
+}
+.ul-info{
+    display: flex;
+    justify-content: space-between;
+}
+.ul{
+    text-align: center;
+}
+nav > ul{
+    margin: 0px;
+    padding: 0px;
+}
+nav > ul::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+nav > ul > li{
+    float: left;
+    position: relative;
+}
+nav > ul > li > a{
+    padding: 20px 30px;
+    color: #FFF;
+}
+nav li{
+    list-style-type: none;
+}
+.list-menu{
+    display: none;
+}
+nav a{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    }
+    .menu i{
+        margin-left: -15px;
+        color: white;
+        font-size: 40px;
+    }
+nav li:hover .list-menu{
+    width: 200px;
+    height: 400px;
+    background-color: #016b9c;
+    color: white;
+    display: inline-block;
+    position: absolute;
+    margin-top: 37px;
+    margin-left: -80px;
+    padding: 21px;
+    padding-right: 0
+}
+#homabiope{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+#number{
+    font-size: 1rem;
+    margin-bottom: 30px;
+}
+#harry-name{
+    font-size: 1rem;
+}
+#my-information{ 
+    font-size: 1rem;
+    margin-bottom: 20px;
+    border: 1px solid white;
+    border-left: none;
+    border-right: none;
+}
+#my-information:active{
+    font-size: 1rem;
+    margin-bottom: 20px;
+    border: 1px solid rgb(138, 57, 57);
+}
+#doc{
+    border: 1px solid white;
+    font-size: 1rem;
+    margin-bottom: 20px;
+    border-left: none;
+    border-right: none;
+
+}
+#my-demand{
+    font-size: 1rem;
+    border: 1px solid white;
+    border-left: none;
+    border-right: none;
+}
+.menu-icon{
+    border: 1px solid white;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    margin: auto;
+    text-align: center;
+}
+li.menu-icon{
+    text-align: center;
+}
+.menu-icon i{
+    color: white;
+    font-size: 60px;
+    margin-top: 20px;
+    margin-left: -2px;
+}
+.logo img{
+    display: none;
+}
+.side-bar{
+    display: none;
+}
+#change-password{
+    color: #016b9c;
+    font-size: 22px;
+     
+  }
+  #cercle1{
+      border-radius: 50%;
+      background-color: rgb(150, 238, 150);
+      margin-top: 12px;
+      width: 12px;
+      height: 12px;
+      border: 1px solid #016b9c;
+  }
+  #cercle2{
+      border-radius: 50%;
+      margin-left: 5px;
+      background-color: rgb(141, 236, 141);
+      margin-top: 12px;
+      width: 12px;
+      height: 12px;
+      border: 1px solid #016b9c;
+  }
+  #cercle3{
+      margin-left: 5px;
+      border-radius: 50%;
+      background-color: rgb(118, 248, 118);
+      margin-top: 12px;
+      width: 12px;
+      height: 12px;
+      border: 1px solid #016b9c;
+  }
+  .mes-cercles{
+      margin-top: 40px;
+      
+      display: flex;
+      justify-content: center;
+  }
+  #mes-info{ color:#016b9c;
+      margin-right: 10px;
+      margin-bottom: 40px;
+      font-size: 25px;
+  }
+  .profil{
+      margin-top: 15px;
+      text-align: center;
+      font-weight: bold;
+      color: #016b9c;
+      font-size: 19px;
+  }
+  
+  .profil-photo i{
+     margin: auto;
+     margin-top: 20px;
+     font-size: 60px;
+  }
+  
+  .user-icon{
+      border: 1px solid black;
+      border-radius: 50%;
+      height: 100px;
+      width: 100px;
+      margin: auto;
+      margin-top: 15px;
+      text-align: center;
+  }
+  button{
+      font-size: 15px;
+      margin-bottom: 10px;
+      background-color: #016b9c;
+      border-radius: 5px;
+      margin-top: 20px;
+      border: none;
+      padding: 10px 20px 10px 20px;
+  }
+  .bouton{
+      text-align: center;
+  }
+  button{
+      cursor: pointer;
+      background-color: rgb(3, 33, 63);
+  }
+  button a{
+      text-decoration: none;
+      color: #FFF;
+  }
+  
+  form{
+      text-align: center;
+  }
+  
+  label{
+      margin-bottom: 10px;
+      font-size: 15px;
+      display: block;
+      text-align: left;
+      margin-left: 35px; 
+  }
+  input{
+      margin-bottom: 20px;
+      border-radius: 5px;
+      border: 1px solid #016b9c;
+     width: 80%;
+     height: 30px;
+      box-shadow: 0px 1px 1px 0px;
+  }
+  @media screen and (min-width: 415px) {
+      #nom{
+          margin-left: 39px;
+          font-size: 19px;
+          margin-right: 430px;
+      }
+      #prenom{
+          margin-left: 39px;
+          font-size: 19px;
+          margin-right: 379px;
+      }
+      #e-mail{
+          margin-left: 39px;
+          font-size: 19px;
+          margin-right: 404px;
+      }
+      #actual-password{
+          margin-left: 39px;
+          width: 400px;
+          font-size: 19px;
+          margin-right: 235px;
+      }
+      #new-password{
+          margin-left: 39px;
+          width: 400px;
+          font-size: 19px;
+          margin-right: 197px;
+      }
+      #confirm-password{
+          margin-left: 39px;
+          font-size: 19px;
+          width: 400px;
+          margin-right:183px;
+      }
+      button{
+          font-size: 19px;
+          font-weight: bold;
+      }
+      #change-password{font-size: 24px;
+      }
+      input{
+          margin: 10px 0px  25px 0px;
+  
+      }
+      label{
+          color: rgb(68, 63, 63);
+          font-weight: bold;
+          margin-left: 57px;
+      }
+      #homabiope{
+          margin-top: 20px;
+          margin-bottom: 30px;
+      }
+      #harry-name{
+      font-size: 16px;
+      }
+      #number{
+          margin-bottom: 30px;
+          font-size: 16px;
+      }
+      #my-information{
+          margin-bottom: 20px;
+          font-size: 16px;
+      }
+      #doc{
+          margin-bottom: 20px;
+          font-size: 16px;
+      }
+      #my-demand{
+          font-size: 16px;
+      }
+      #mes-info{
+          font-weight: bold;
+      }
+      
+    }
+  @media screen and (min-width: 600px) {
+
+      #nom{
+          font-size: 22px;
+          margin-left: 57px;
+          margin-right: 430px;
+      }
+      #prenom{
+          margin-left: 57px;
+          font-size: 22px;
+          margin-right: 379px;
+      }
+      #e-mail{
+          margin-left: 57px;
+          font-size: 22px;
+          margin-right: 404px;
+      }
+      #actual-password{
+          margin-left: 57px;
+          font-size: 22px;
+          margin-right: 235px;
+      }
+      #new-password{
+          margin-left: 57px;
+          font-size: 22px;
+          margin-right: 197px;
+      }
+      #confirm-password{
+          margin-left: 57px;
+          font-size: 22px;
+          margin-right:183px;
+      }
+      button{
+          font-size: 20px;
+          font-weight: bold;
+      }
+      #change-password{font-size: 24px;
+      }
+      input{
+          margin: 10px 0px  25px 0px;
+  
+      }
+      label{
+          color: rgb(68, 63, 63);
+          font-weight: bold;
+          margin-left: 57px;
+      }
+      #homabiope{
+          margin-top: 20px;
+          margin-bottom: 30px;
+      }
+      #harry-name{
+      font-size: 16px;
+      }
+      #number{
+          margin-bottom: 30px;
+          font-size: 16px;
+      }
+      #my-information{
+          margin-bottom: 20px;
+          font-size: 16px;
+      }
+      #doc{
+          margin-bottom: 20px;
+          font-size: 16px;
+      }
+      #my-demand{
+          font-size: 16px;
+      }
+      #mes-info{
+          font-weight: bold;
+      }
+    } 
+/*partie demandes*/
+
+    @media screen and (min-width:800px) {
+        .container{
+            max-width: 800px;
+            margin: auto;
+            border: 1px solid #dadec0;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+        .desktop-wraper{
+            width: 100%;
+            display: flex;
+        }
+        nav li .list-menu{
+           display: none;
+        }
+        .menu i{
+            display: none;
+        }
+        .table-container{
+           width: 30%;
+        }
+        .information-container{
+            width: 70%;
+        }
+        .flex-container1{
+            display: flex;
+            justify-content: space-between;
+         
+        }
+        .flex-container2{
+    
+        }
+        .password{
+            width: 500px;
+            margin-left: -40px;
+        }
+        #actual-password{
+           margin-left: 10px;
+        }
+        #actual-password-input{
+            margin-left: -5px;
+            padding: 4px 130px ;
+        }
+        .new-password{
+            width: 500px;
+            margin-left: -40px;
+        }
+        #new-password{
+            margin-left: 10px;
+        }
+        #new-password-input{
+            margin-left: -5px;
+            padding: 4px 135px;
+        }
+        .confirm-password{
+            width: 500px;
+            margin-left: -40px;
+        }
+        #confirm-password{
+            margin-left: 10px;
+        }
+        #confirm-password-input{
+            margin-left: -5px;
+            padding: 4px 135px;
+        }
+        .user-information{
+            width: 100%;
+        }
+        .profil{
+            float: left;
+            margin-left: 30px;
+            margin-top: -90px;
+        }
+        .user-icon{
+            float: left;
+            margin-top: -20px;
+            margin-left: 40px;
+        }
+        .mes-cercles{
+            margin-top: 100px;
+            margin-right: 70px;
+        }
+        form{
+            margin-top: 80px;
+            margin-left: 70px;
+        }
+        .formulaire{
+            
+        }
+        .side-bar-text{
+            font-size: 15px;
+            padding: 40px 10px 20px 20px;
+            color: white;
+            margin: 0px 20px 0px 20px;
+            border-bottom: 1px solid white;
+        }
+        .side-bar{
+            width: 100%;
+            background-color: #016b9c ;
+            display: inline-block;
+            height: 1041px;
+            border-top: 1px solid white;
+        }
+        .nom{
+            float: left;
+            margin-left: -50px;
+            width: 50%;
+        }
+        #nom{
+            margin-left: 20px;
+        }
+        .div-email{
+            margin-left: -345px;
+        }
+        #e-mail{
+            margin-left: 315px;
+        }
+        
+        .prenom{
+            width: 50%;
+           float: right;
+        }
+        #prenom{
+            margin-left: 21px;
+        }
+        P{
+            margin-top: -50px;
+           margin-left: 170px;
+        }
+        #change-password{
+            font-size: 19px;
+        }
+        input{
+            width: 200px;
+        }
+        .logo{
+            display: block;
+            padding-bottom: 10px;
+        }
+        .logo img{
+            width: 120px;
+            display: block;
+            margin: 20px 0px 0px 25px;
+        }
+        .navbar{
+            display: flex;
+            justify-content: space-between;
+        }
+        .side-bar-text span i{
+            margin-right: 4px;
+        }
+        .side-bar-text span a{
+            text-decoration: none;
+            color: #fff;
+        }
+        .button-container button{
+            border: none;
+            border-radius: 5px;
+            color: #016b9c;
+            background-color: #fff;
+            padding: 8px 25px 8px 25px ;
+            cursor: pointer;
+        }
+        .button-container button:hover{
+            background-color: rgb(3, 33, 63);
+            color: white;
+            border: 2px solid #fff;
+        }
+        .button-container{
+            margin-top: 150%;
+            text-align: center;
+        }
+        .bouton{
+            margin-left: -80px;
+            margin-top: 40px;
+        }
+    }
+        
+   
+   
+
+
