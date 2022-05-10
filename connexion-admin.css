@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #f9f9fa
+}
+
+.logo-container{
+    background: linear-gradient(135deg, #016b9c 30%, rgb(42, 97, 42));
+    text-align: center;
+    padding: 20px;
+}
+
+.text-container{
+    padding: 20px;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 20px;
+}
+#homabiope-logo{
+    width: 120px;
+}
+
+form{
+    padding: 20px;
+   
+}
+input{
+    width: 85%;
+    border-radius: 5px;
+    border: none;
+    border: 1px solid #dadce0;
+}
+
+.button-container{
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+
+.button-container button{
+    padding: 10px 35px 30px 35px;
+    background-color:#016b9c ;
+    border-radius: 5px;
+    border: none;
+    margin-top: 20px;
+    height: 30px;
+}
+  button a{
+    text-decoration: none;
+    color: white;
+   
+}
+.password-forget-container{
+    text-align: center;
+    margin-top: 15px;
+    font-size: 15px;
+}
+.password-forget-container a{
+    text-decoration: none;
+}
+input{
+    padding: 10px;
+    margin: 10px 10px 10px 20px;
+}
+
+
+.text-container span:nth-child(2){
+    display: block;
+}
+
+.admin-vector{
+    display: none;
+}
+
+
+@media screen and (min-width:600px) {
+    .admin-vector{
+        display: block;
+        margin-top: 20px;
+        text-align: center;
+    }
+    .admin-vector img{
+        width: 200px;
+    }
+   
+   
+}
+
+@media screen and (min-width:700px) {
+    .container-admin{
+        max-width: 600px;
+        border: 1px solid #dadce0;
+        border-radius: 5px;
+        margin: auto;
+        padding-bottom: 40px;
+       background-color: white;;
+    }
+    body{
+        padding-top: 7.5%;
+    }
+    input{
+        width: 80%;
+        margin-left: 50px;
+    }
+    .logo-container{
+       border-top-left-radius: 5px;
+       border-top-right-radius: 5px;
+    }
+    .button-container button:hover{
+        background-color: rgb(3, 33, 63);
+        transform: scale(1.0);
+    }
+}
+
