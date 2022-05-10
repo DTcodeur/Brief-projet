@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
    * {
         font-family: 'Poppins', sans-serif;
@@ -45,6 +45,9 @@
         border-radius: 5px;
         
     } 
+    button:hover{
+        background-color: rgb(3, 33, 63);
+    }
     .file-picker{
         text-align: center;
         margin-top: 5%;
@@ -79,6 +82,7 @@
 
 
 @media screen and (min-width:600px) {
+      
       main{
         padding: 3%;
       }
@@ -124,11 +128,13 @@
       body{
         background-image: url(background.jpeg);
         background-size: cover;
-        border: 1px solid #dadada;
+      }
+      .container-page{
+        border: 1px solid #dadce0;
         margin: 9% 15%;
         padding: 0%;
         border-radius: 1%;
-        box-shadow: 5px 5px 5px 5px #dadada;
+
       }
       .logo img{
           width: 120px;
@@ -155,3 +161,11 @@
           margin-top: 2%;
       }
   }
+  @media screen and (min-width:1024px){
+    .container-page{
+        max-width: 715px;
+        margin: auto;
+        margin-top: 50px;
+    }
+
+}

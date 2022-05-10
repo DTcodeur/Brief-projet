@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'poppins',sans-serif;
+    font-size: 12px;
+    box-sizing: border-box;
+ }
+ nav{
+     width: 100%;
+    background: linear-gradient(135deg, #016b9c 30%, rgb(42, 97, 42));
+}
+.MES-INFORMATIONS{
+    font-size: 20px;
+    margin-top: 18px;
+    color: white;
+    text-align: center;
+    margin-right: 20px;
+}
+.ul-info{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 35px;
+}
+.ul{
+    text-align: center;
+}
+nav > ul{
+    margin: 0px;
+    padding: 0px;
+}
+nav > ul::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+nav > ul > li{
+    float: left;
+    position: relative;
+}
+nav > ul > li > a{
+    padding: 20px 30px;
+    color: #FFF;
+}
+nav li{
+    list-style-type: none;
+}
+.list-menu{
+    display: none;
+}
+nav a{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    }
+    .menu i{
+        margin-left: -15px;
+        color: white;
+        font-size: 40px;
+    }
+nav li:hover .list-menu{
+    width: 200px;
+    height: 400px;
+    background-color: #016b9c;
+    color: white;
+    display: inline-block;
+    position: absolute;
+    margin-top: 37px;
+    margin-left: -80px;
+    padding: 21px;
+    padding-right: 0
+}
+#homabiope{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+#number{
+    font-size: 1rem;
+    margin-bottom: 30px;
+}
+#harry-name{
+    font-size: 1rem;
+}
+#my-information{ 
+    font-size: 1rem;
+    margin-bottom: 20px;
+    border: 1px solid white;
+    border-left: none;
+    border-right: none;
+}
+#my-information:active{
+    font-size: 1rem;
+    margin-bottom: 20px;
+    border: 1px solid rgb(138, 57, 57);
+}
+#doc{
+    border: 1px solid white;
+    font-size: 1rem;
+    margin-bottom: 20px;
+    border-left: none;
+    border-right: none;
+
+}
+#my-demand{
+    font-size: 1rem;
+    border: 1px solid white;
+    border-left: none;
+    border-right: none;
+}
+.menu-icon{
+    border: 1px solid white;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    margin: auto;
+    text-align: center;
+}
+li.menu-icon{
+    text-align: center;
+}
+.menu-icon i{
+    color: white;
+    font-size: 60px;
+    margin-top: 20px;
+    margin-left: -2px;
+}
+.logo{
+    display: none;
+}
+.side-bar{
+    display: none;
+}
+
+.box{
+    border-radius: 2%;
+    width: 85%;
+    margin: auto;
+    margin-bottom: 10%;
+    box-shadow: 2px 2px 10px #858484;
+}
+.text{
+    font-size: 1.2rem;
+    text-align: center;
+}
+.button{
+    text-align: center;
+}
+button{
+    padding: 5%;
+    margin: 5%;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #166b99;
+}
+button:hover{
+    background-color: rgb(3, 33, 63)
+}
+a{
+    text-decoration: none;
+    color:#fff;
+    text-transform: uppercase;
+}
+a:hover{
+    color: aliceblue;
+}
+img{
+    width: 100%;
+    border-top-left-radius: 2%;
+    border-top-right-radius: 2%;
+}
+
+
+@media screen and (min-width:600px){
+    .container-box{
+        display: flex;
+        padding: 5% 5% 0% 5%;
+    }
+    .box{
+        width: 48%;
+        margin-bottom: 2%;
+    }
+    .ul-info{
+        margin-bottom: 2%;
+    }
+}
+
+@media screen and (min-width:800px) {
+    nav li .list-menu{
+        display: none;
+    }
+    .menu i{
+        display: none;
+    }
+    .table-container{
+        width: 100%;
+        display:flex
+    }
+   
+    .side-bar-text{
+        font-size: 15px;
+        padding: 40px 10px 20px 20px;
+        color: white;
+        margin: 0px 20px 0px 20px;
+        border-bottom: 1px solid white;
+            
+    }
+    .side-bar{
+        background-color: #016b9c ;
+        display: inline-block;
+        height: 120vh;
+        border-top: 1px solid white;
+    }
+    
+    .logo{
+        display: block;
+        padding-bottom: 10px;
+    }
+    .logo img{
+        width: 120px;
+        margin: 20px 0px 0px 25px;
+    }
+    .navbar{
+        display: flex;
+        justify-content: space-between;
+        height: 64.5px;
+    }
+    .side-bar-text span i{
+            margin-right: 4px; ;
+        }
+        .side-bar-text span a{
+            text-decoration: none;
+            color: #fff;
+        }
+        .button-container button{
+            border: none;
+            border-radius: 5px;
+            color: #016b9c;
+            background-color: #fff;
+            padding: 8px 25px 8px 25px ;
+            cursor: pointer;
+        }
+        .button-container button:hover{
+            background-color: rgb(3, 33, 63);
+            color: white;
+            border: 2px solid #fff;
+        }
+        .button-container{
+            margin-top: 150%;
+            text-align: center;
+        }
+       
+    }
+
+
+
+
