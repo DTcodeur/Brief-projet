@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0%;
+    padding: 0%;
+}
+/* }
+.menu-container{
+    display: flex;
+    justify-content: center; 
+}
+input{
+    border-radius: 5px;
+    margin-bottom: 10px;
+    width: 250px;
+    padding: 8px;
+}
+
+
+button{
+    margin-top: 10px;
+    padding: 7px;
+    width: 114px;
+    background-color: #166b99;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+.civilité-H{
+width: 20px;
+}
+.civilité-F{
+width: 20px;
+margin-left: 66px;
+}
+.container-button{
+    text-align: center;
+}
+.logo{
+    text-align: center;
+    background: linear-gradient(135deg, #016b9c 30%, rgb(42, 97, 42));
+    padding: 10px;
+}
+img{
+    width: 120px;
+}
+.civility{
+    margin-bottom: 10px;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+form{
+    width: 100%;
+    margin-left: 50px; ;
+}
+form span{
+    font-weight: bold;
+    font-size: 18px;
+   
+}
+#span-container{
+    margin-top: 25px;
+} */
+/* 
+@media screen and (min-width:600px) {
+    button {
+        margin: 10px 150px 10px 40px;
+    }
+
+    .container-button {
+        display: flex;
+        justify-content: space-between;
+    }
+    form span{
+        
+        font-size: 22px;
+       
+    }
+}
+
+@media screen and (min-width:800px) {
+    .form-row1, .form-row2, .form-row4{
+        display: flex;
+        justify-content:space-around;
+    }
+    input{
+        width:100% ;
+    }
+    .nom, .prenom, .telephone, .container-civility, .mot-de-passe, .confirmer{
+        width: 40%;
+    }
+    .email{
+        margin-left: 4.8%;
+        width: 90.2%;
+    }
+    button{
+         margin: 0%;
+    }
+    .annuler{
+        margin-right: 40px;
+    }
+    .inscrire{
+        margin-left: 40px;
+    }
+    .container-button{
+        display: flex;
+        justify-content: center;
+    }
+} */
+
+.logo{
+    text-align: center;
+    background: linear-gradient(135deg, #016b9c 30%, rgb(42, 97, 42));
+    padding: 10px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+img{
+    width: 120px;
+}
+.menu-container{
+    display: flex;
+    justify-content: center;
+}
+.container-span{
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+span{
+    font-weight: bold;
+    font-size: 1rem; 
+}
+input{
+    width: 250px;
+    border-radius: 5px;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.civility{
+
+}
+.civilité-H{
+    width: 20px;
+}
+.civilité-F{
+    width: 20px;
+    margin-left: 66px;
+}
+.container-button{
+    text-align: center;
+}
+button{
+    background: #016b9c;
+    margin-top: 10px;
+    width: 80px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+}
+@media screen and (min-width:600px){
+    main{
+        padding: 3%;
+    }
+    span{
+        display: inline-block;
+        margin-left: -9px;
+        font-size: 18px;
+    }
+    .form-row1, .form-row2, .form-row4{
+        display: flex;
+        justify-content: center;
+    }
+    .form-row1>div, .form-row4>div{
+        padding: 2%;
+    }
+    .form-row2{
+        margin-left: -38px;
+    }
+    .form-row2>div:last-child{
+        padding: 2%;
+    }
+    .form-row3{
+        margin-left: -12px;
+       
+    }
+    .civility{
+        margin-left: 16px;
+    }
+    .civilité-F{
+        margin-left: 30px;
+    }
+    .email-input{
+        width: 99%;
+       
+    }
+    .container-button{
+        display: flex;
+        justify-content: center;
+
+    }
+    .annuler, .inscrire{
+        padding: 2%;
+    }
+    
+}
+@media screen and (min-width:800px) {
+    .big-container{
+        border: 1px solid ;
+        width:640px;
+        margin: auto;
+        margin-top: 8%;
+        border: 1px solid #dadce0;
+        border-radius: 5px;
+    }
+
+    button:hover{
+        background-color: rgb(3, 33, 63);
+    }
+}
