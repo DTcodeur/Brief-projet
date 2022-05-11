@@ -95,7 +95,7 @@
     
     .video-container{
        margin: 40px 20px 40px 20px;
-       box-shadow: 0px 0px 5px black;
+       box-shadow: 1px 1px 5px #dadce0;
        border-radius: 3px;
        padding: 25px;
        text-align: center;
@@ -182,12 +182,14 @@
     #casier-judiciare-piece:hover{
         background-color: rgb(3, 33, 63);
     }
-    .carte-didentite-container{
+    .carte-didentite-container {
         text-align: center;
         margin: 60px 20px 60px 20px;
-       border-bottom: 1px solid rgb(230, 228, 228);
-       padding-bottom: 20px;
-    }
+        border: 1px solid rgb(230, 228, 228);
+        padding: 50px 10px 50px 10px;
+        border-radius: 5px;
+        box-shadow: 1px 1px 5px #dadec0;
+      }
     
     .carte-didentite-container img{
         width: 25%;
@@ -209,9 +211,11 @@
     
     .passport-container{
         text-align: center;
-        margin: 40px 20px 40px 20px;
-        border-bottom: 1px solid rgb(230, 228, 228);
-        padding-bottom: 20px;
+        margin: 60px 20px 60px 20px;
+        border: 1px solid rgb(230, 228, 228);
+        padding: 50px 10px 60px 10px;
+        border-radius: 5px;
+        box-shadow: 1px 1px 5px #dadec0;
     }
     
     .passport-container span{
@@ -223,9 +227,11 @@
     
     .casier-judiciaire-container{
         text-align: center;
-        margin: 40px 20px 40px 20px;
-        border-bottom: 1px solid rgb(230, 228, 228);
-        padding-bottom: 20px;
+        margin: 60px 20px 60px 20px;
+        border: 1px solid rgb(230, 228, 228);
+        padding: 50px 46px 50px 61px;
+        border-radius: 5px;
+        box-shadow: 1px 1px 5px #dadec0;
     }
     
     .casier-judiciaire-container img{
@@ -273,6 +279,9 @@
         background-color: #016b9c;
         transform: scale(1);
     }
+
+   
+
     #e-services-main-container-1{
         padding:20px;
         display: flex;
@@ -290,13 +299,23 @@
         font-family: 'Poppins', sans-serif;
         font-size: 15px;
     }
+
+    .section-4-main-container a {
+        text-decoration: none;
+    }
     
     .square{
         width: 50px;
         height: 50px;
         border-radius: 50%;
-        background-color: brown;
+        position: relative;
         margin: 10px;
+    }
+    .square #square-img{
+        width: 60px;
+        position: absolute;
+        top: 10px;
+        left: 15px;
     }
     
     #e-service-1-item-tilte{
@@ -333,7 +352,7 @@
         background-color: #fff;
         border-radius: 7px;
         color: #016b9c;
-        margin-bottom: 20px;
+        margin-bottom: 50px;
         font-size: 16px;
         cursor: pointer;
         font-family: 'Poppins', sans-serif;
@@ -454,15 +473,13 @@
     
     .copywright{
         margin: 10px 10px 10px 0px;
-    
+    }
     
     /*fin du footer*/ 
 }
 
 @media screen and (min-width:481px) {
-    .image img:nth-child(1){
-        display: none;
-    } .image img:nth-child(1){
+    #img-1{
         display: none;
     }
     .image img:nth-child(2){
@@ -476,6 +493,16 @@
       }
    
 }
+
+@media screen and (min-width:600px){
+    #img-1{
+        display: none;
+    }
+    #img-2{
+        display: block;
+    }
+
+}
 @media screen and (min-width:652px) {
     .footer-network-contact{
         display: flex;
@@ -483,6 +510,7 @@
         width: 100%;
         padding-top: 34px;
     }
+    
     .container-title{
         padding: 20px 20px 5px 30px;
     }
@@ -517,13 +545,19 @@
     .adress-contact-container {
         margin: 0px 15px 20px 0px;
       }
-    
+   
 }
 
 @media screen and (min-width:800px) {
 
-    .image img:nth-child(2){
+    /* .image img:nth-child(2){
         display: none;
+    } */
+    #img-2{
+        display: none;
+    }
+    #img-3{
+        display:flex;
     }
     .pieces-service-container{
         display: inline-flex;
@@ -538,11 +572,9 @@
     .passport-container img {
         width: 45%;
     }
-    .carte-didentite-container {
-        margin: 60px 20px 40px 20px;
-      }
+    
       .carte-didentite-container span {
-       margin-top: 5px;
+       margin-top: 12px;
     }
     .carte-didentite-container img {
         width: 45%;
@@ -627,10 +659,6 @@
         opacity: 0.3; 
     }
 
-    #img-3{
-        display: block;
-    }
-
     .h1-container{
         display: block;
         max-width: 1200px;
@@ -658,7 +686,7 @@
         -webkit-text-stroke: 0vw ;
         border-right: 2px solid #fff;
         overflow: hidden;
-        animation: homabiope 4s linear infinite alternate;
+        animation: homabiope 5s linear infinite alternate;
     }
     
     @keyframes homabiope {
@@ -674,7 +702,7 @@
         top: 55%;
         position: absolute; 
         text-transform: uppercase;
-        left: 23%;
+        left: 15%;
     }
 
 }
@@ -682,6 +710,14 @@
 @media screen and (min-width:1000px){
     .video-container-main{
         padding-top: 0;
+    }
+    .images-container{
+        max-width: 1000px;
+        margin: auto;
+    }
+
+    .video-container{
+        margin-top: 50px;
     }
 }
 
@@ -700,22 +736,19 @@
         background-color: none;
     }
 
-    .images-container{
-        max-width: 1000px;
-        margin-left: 100px;
-    }
+    
 
     footer{
         background-color: #24292f;
     }
    
      
-    body{
+    /* body{
         margin: auto;
-    }
-    .navbar-container{
+    } */
+    /* .navbar-container{
         
-    }
+    } */
 
     .section-5-main-container{
         max-width: 1000px;
@@ -733,6 +766,11 @@
     .video-title-main-container{
     max-width: 1000px;
     margin: auto;
+    }
+
+
+    .body-index{
+        margin: auto;
     }
    
 }
