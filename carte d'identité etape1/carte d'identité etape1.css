@@ -125,10 +125,10 @@
   }   
   
   @media screen and (min-width:800px){
-      body{
+      /* body{
         background-image: url(background.jpeg);
         background-size: cover;
-      }
+      } */
       .container-page{
         border: 1px solid #dadce0;
         margin: 9% 15%;
@@ -154,9 +154,7 @@
       h3{
         margin-top: -2%;
       }
-      main{
-        background-color: aliceblue;
-      }
+
       .container-title-formulary{
           margin-top: 2%;
       }
