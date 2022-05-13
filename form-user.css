@@ -131,6 +131,13 @@ li.menu-icon{
 .side-bar{
     display: none;
 }
+a{
+    text-decoration: none;
+    color: #016b9c;
+}
+a:hover{
+    color: #FFF;
+}
 
 /*partie demandes*/
     table{
@@ -182,7 +189,7 @@ li.menu-icon{
             
         }
         .side-bar{
-            width: 30%;
+            width: 19.5%;
             background-color: #016b9c ;
             display: inline-block;
             height: 120vh;

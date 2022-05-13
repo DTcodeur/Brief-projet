@@ -3,7 +3,6 @@ body{
     font-family: 'poppins',sans-serif;
 }
 .nav-bar{
-    border: 1px solid black;
     width: 100%;
     height: 60px;
     background: linear-gradient(135deg, #016b9c 30%, rgb(42, 97, 42));
@@ -66,12 +65,14 @@ button a{
     color: #deebf1;
     font-size: 15px;
     margin-bottom: 10px;
-    background-color: #016b9c;
     border-radius: 5px;
     margin-top: 20px;
     text-decoration: none;
     border: none;
     padding: 10px 55px;
+}
+button:hover{
+    background-color: rgb(3, 33, 63);
 }
 .buton{
     text-align: center;

@@ -165,6 +165,13 @@ a{
 a:hover{
     color: aliceblue;
 }
+.deconnect{
+    color: #016b9c;
+    text-transform: none;
+}
+.deconnect:hover{
+    color: #fff
+}
 img{
     width: 100%;
     border-top-left-radius: 2%;
@@ -224,7 +231,7 @@ img{
     .navbar{
         display: flex;
         justify-content: space-between;
-        height: 64.5px;
+        height: 61.61px;
     }
     .side-bar-text span i{
             margin-right: 4px; ;
